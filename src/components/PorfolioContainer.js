@@ -1,10 +1,8 @@
-// import logo from './logo.svg';
-import React, {useState} from "react";
-import NavTabs from "./NavTabs"
-import Homepage from "./pages/Homepage";
-import About from "./pages/About";
-import Contact from "./pages/Contact"
-import "./App.css";
+import React, {useState} from 'react';
+import NavTabs from './NavTabs';
+import Homepage from './pages/Homepage';
+import Works from './pages/Works';
+import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Homepage');
@@ -12,8 +10,8 @@ export default function PortfolioContainer() {
         if (currentPage === 'Homepage') {
             return <Homepage />;
         }
-        if (currentPage === 'About') {
-            return <About />;
+        if (currentPage === 'Works') {
+            return <Works />;
         }
         return <Contact />;
     };
@@ -22,7 +20,7 @@ export default function PortfolioContainer() {
     return (
         <div>
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-        {renderPage}    
+            {renderPage()}
         </div>
-    )
+    );
 };
