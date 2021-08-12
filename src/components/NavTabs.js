@@ -14,23 +14,26 @@ function NavTabs({ currentPage, handlePageChange }) {
                 <a
                     href="#Works"
                     onClick={() => handlePageChange('Works')}
-                    className={currentPage === 'Works' ? 'nav-link-active' : 'nav-link'}
+                    className={currentPage === 'Works' ? 'nav-link active' : 'nav-link'}
                 >Works</a>
           </li>
           <li className="nav-item">
                 <a
                     href="#Contact"
                     onClick={() => handlePageChange('Contact')}
-                    className={currentPage === 'Contact' ? 'nav-links-active' : 'nav-links'}
+                    className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                 >Contact Me</a>
           </li>
           <li className="nav-item">
                 <a
                     href="https://drive.google.com/file/d/1fK0Ncx9_9aGoPw9GkpHQLgvZgqO6e_Kd/view?usp=sharing"
+                    className='nav-link'
                 >Resume</a>
           </li>
         </ul>
     );
 }
+
+// Set highlighted tab
 
 export default NavTabs;

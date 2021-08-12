@@ -3,21 +3,38 @@ import React from "react";
 export default function Contact() {
   return (
     <div id="contactme" className="contactme">
-      <h1>Contact Me</h1>
-      <p>(475)-233-3726</p>
-      <p>
-        <a href="https://www.connorcleveland2002@gmail.com">
-          connorcleveland2002@gmail.com
-        </a>
-      </p>
-      <p>
-        <a href="https://github.com/ConnorCleveland2002">GitHub Page</a>
-      </p>
-      <p>
-        <a href="https://www.linkedin.com/in/connor-cleveland-18b715207/">
-          Linkedin Profile
-        </a>
-      </p>
+      <br></br>
+      <h1>Contact Me!</h1>
+      <hr></hr>
+      <form action="">
+        <div onMouseLeave="leaveField()">
+          <label for="name">Name:</label>
+          <br></br>
+          <input type="name" id="name" placeholder="Name"></input>
+          <div id="field" className="field"><p>Enter Name Above</p></div>
+        </div>
+        <hr></hr>
+        <div onMouseLeave="leaveField()">
+          <label for="email">Email:</label>
+          <br></br>
+          <input type="email" id="email" placeholder="Email"></input>
+          <span type="email" id="emailSpan"></span>
+        </div>
+        <hr></hr>
+        <div onMouseLeave="leaveField()">
+          <label for="message">Message:</label>
+          <br></br>
+          <textarea
+            id="messasge"
+            name="message"
+            rows="10"
+            cols="50"
+            required
+          ></textarea>
+          <span></span>
+        </div>
+        <br></br>
+      </form>
     </div>
   );
 }
