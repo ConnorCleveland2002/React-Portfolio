@@ -100,7 +100,7 @@ article li a {
 }
 
 iframe {
-  height: 50vh;
+  height: 45vh;
   width: 50vw;
   float: right;
   resize: none;
@@ -141,6 +141,16 @@ iframe {
 
 .workBody ul a {
   text-decoration: none;
+}
+
+.worksImg {
+  height: 45vh;
+  width: 50vw;
+  float: right;
+  resize: none;
+  overflow: auto;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 /* article {
