@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-inator-Profile/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/React-inator-Profile/static/js/main.58508c30.chunk.js",
+    "main.js.map": "/React-inator-Profile/static/js/main.58508c30.chunk.js.map",
+    "runtime-main.js": "/React-inator-Profile/static/js/runtime-main.ca68ce87.js",
+    "runtime-main.js.map": "/React-inator-Profile/static/js/runtime-main.ca68ce87.js.map",
+    "static/js/2.a860f003.chunk.js": "/React-inator-Profile/static/js/2.a860f003.chunk.js",
+    "static/js/2.a860f003.chunk.js.map": "/React-inator-Profile/static/js/2.a860f003.chunk.js.map",
+    "index.html": "/React-inator-Profile/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/React-inator-Profile/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.a860f003.chunk.js.LICENSE.txt": "/React-inator-Profile/static/js/2.a860f003.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca68ce87.js",
+    "static/js/2.a860f003.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.58508c30.chunk.js"
+  ]
+}
