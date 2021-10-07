@@ -6,7 +6,7 @@ export default function Contact() {
   const [errorMessage, setErrorMessage] = useState("");
 
   const leaveEmail = (evt) => {
-      setErrorEmail("This field cannot be blank")
+      setErrorEmail("This field cannot be blank ")
   };
   const leaveName = (evt) => {
     if (evt.target.value.length <= 0) {

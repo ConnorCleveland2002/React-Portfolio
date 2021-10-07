@@ -26,7 +26,7 @@ export default function Works() {
               button to retrieve a database and view the items of that database
               in a mapped out object on the page. On desktop, it also has the
               functionality of being able to create, update, and delete and
-              account.
+              account. 
             </p>
             <li>
               Deployed Link:
