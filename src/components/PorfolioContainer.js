@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import NavTabs from './NavTabs';
 import Homepage from './pages/homepage.js';
-import Works from './pages/works.js';
+import Works from './pages/works';
 import Contact from './pages/contact.js';
 
 export default function PortfolioContainer() {
