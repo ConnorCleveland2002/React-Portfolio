@@ -25,7 +25,7 @@ export default function Works() {
               developer for this project. The functionality includes pressing a
               button to retrieve a database and view the items of that database
               in a mapped out object on the page. On desktop, it also has the
-              functionality of being able to create, update, and delete and
+              functionality of being able to create, update, and delete an
               account. 
             </p>
             <li>
