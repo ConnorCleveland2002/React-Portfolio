@@ -10,6 +10,41 @@ export default function Works() {
           <hr />
 
           <iframe
+            title="Codeware Conglomerate"
+            className="main-iframe"
+            src="https://finalprojectinator.herokuapp.com/"
+            alt="Codeware Conglomerate"
+          ></iframe>
+          <ul>
+            <a href="https://finalprojectinator.herokuapp.com/">
+              <h3>Codeware Conglomerate</h3>
+            </a>
+            <p>
+              As my final project for Uconn Coding, I created the web
+              application Codeware Conglomerate. I was the sole author and
+              developer for this project. The functionality includes pressing a
+              button to retrieve a database and view the items of that database
+              in a mapped out object on the page. On desktop, it also has the
+              functionality of being able to create, update, and delete and
+              account.
+            </p>
+            <li>
+              Deployed Link:
+              <a href="https://finalprojectinator.herokuapp.com/">
+                Condeware Conglomerate
+              </a>
+            </li>
+            <li>
+              Github Link:
+              <a href="https://github.com/ConnorCleveland2002/Final-Project-inator">
+                Codeware Conglomerate Repository
+              </a>
+            </li>
+          </ul>
+
+          <hr />
+
+          <iframe
             title="Fun-Finder Demo"
             className="main-iframe"
             src="https://connorcleveland2002.github.io/fun-finder/homePage.html"
