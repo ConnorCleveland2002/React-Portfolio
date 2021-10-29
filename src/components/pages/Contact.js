@@ -38,53 +38,53 @@ export default function Contact() {
     }
   };
   return (
-    <div id="contactme" className="contactme">
-      <br></br>
+    // <div id="contactme" className="contactme">
+    //   <br></br>
       <h1>Contact Me!</h1>
-      <hr></hr>
-      <form action="">
-        <div>
-          <label>Name:</label>
-          <br></br>
-          <input
-            type="name"
-            id="name"
-            placeholder="Name"
-            onBlur={leaveName}
-            onFocus={enterName}
-          ></input>
-          <span>{errorName}</span>
-        </div>
-        <hr></hr>
-        <div>
-          <label>Email:</label>
-          <br></br>
-          <input
-            type="email"
-            id="email"
-            placeholder="Email"
-            onChange={emailValidation}
-            onBlur={leaveEmail}
-            onFocus={enterEmail}
-          ></input>
-          <span>{errorEmail}</span>
-        </div>
-        <hr></hr>
-        <div>
-          <label>Message:</label>
-          <br></br>
-          <textarea
-            id="messasge"
-            name="message"
-            rows="10"
-            cols="50"
-            onBlur={leaveMessage}
-            onFocus={enterMessage}
-          ></textarea>
-          <span>{errorMessage}</span>
-        </div>
-        <br></br>
-      </form>
-    </div>
+    //   <hr></hr>
+    //   <form action="">
+    //     <div>
+    //       <label>Name:</label>
+    //       <br></br>
+    //       <input
+    //         type="name"
+    //         id="name"
+    //         placeholder="Name"
+    //         onBlur={leaveName}
+    //         onFocus={enterName}
+    //       ></input>
+    //       <span>{errorName}</span>
+    //     </div>
+    //     <hr></hr>
+    //     <div>
+    //       <label>Email:</label>
+    //       <br></br>
+    //       <input
+    //         type="email"
+    //         id="email"
+    //         placeholder="Email"
+    //         onChange={emailValidation}
+    //         onBlur={leaveEmail}
+    //         onFocus={enterEmail}
+    //       ></input>
+    //       <span>{errorEmail}</span>
+    //     </div>
+    //     <hr></hr>
+    //     <div>
+    //       <label>Message:</label>
+    //       <br></br>
+    //       <textarea
+    //         id="messasge"
+    //         name="message"
+    //         rows="10"
+    //         cols="50"
+    //         onBlur={leaveMessage}
+    //         onFocus={enterMessage}
+    //       ></textarea>
+    //       <span>{errorMessage}</span>
+    //     </div>
+    //     <br></br>
+    //   </form>
+    // </div>
   );
 }
