@@ -69,13 +69,13 @@ export default function Works() {
             <li>
               Deployed Link:
               <a href="https://connorcleveland2002.github.io/Event-Finder/homePage.html">
-                Fun-Finder Deployed
+                Event-Finder Deployed
               </a>
             </li>
             <li>
               Github Link:
               <a href="https://github.com/ConnorCleveland2002/Event-Finder">
-                Fun-Finder Repository
+                Event-Finder Repository
               </a>
             </li>
           </ul>
