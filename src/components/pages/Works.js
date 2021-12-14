@@ -26,7 +26,7 @@ export default function Works() {
               button to retrieve a database and view the items of that database
               in a mapped out object on the page. On desktop, it also has the
               functionality of being able to create, update, and delete an
-              account. 
+              account.
             </p>
             <li>
               Deployed Link:
@@ -45,17 +45,17 @@ export default function Works() {
           <hr />
 
           <iframe
-            title="Fun-Finder Demo"
+            title="Event-Finder Demo"
             className="main-iframe"
-            src="https://connorcleveland2002.github.io/fun-finder/homePage.html"
-            alt="Fun-Finder Demo"
+            src="https://connorcleveland2002.github.io/Event-Finder/homePage.html"
+            alt="Event-Finder Demo"
           ></iframe>
           <ul>
-            <a href="https://connorcleveland2002.github.io/fun-finder/homePage.html">
-              <h3>Fun Finder</h3>
+            <a href="https://connorcleveland2002.github.io/Event-Finder/homePage.html">
+              <h3>Event Finder</h3>
             </a>
             <p>
-              Fun Finder was a group project, in which the goal was to
+              Event Finder was a group project, in which the goal was to
               successfully use an API to create a functional web application. We
               decided as a group to create an application centred around getting
               people who fele locked up at home during Covid outside and doing
@@ -68,13 +68,13 @@ export default function Works() {
             </p>
             <li>
               Deployed Link:
-              <a href="https://connorcleveland2002.github.io/fun-finder/homePage.html">
+              <a href="https://connorcleveland2002.github.io/Event-Finder/homePage.html">
                 Fun-Finder Deployed
               </a>
             </li>
             <li>
               Github Link:
-              <a href="https://github.com/ConnorCleveland2002/fun-finder">
+              <a href="https://github.com/ConnorCleveland2002/Event-Finder">
                 Fun-Finder Repository
               </a>
             </li>
